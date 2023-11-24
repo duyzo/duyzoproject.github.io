@@ -1,0 +1,159 @@
+html {
+    padding: 20% 25%;
+    background-color: #e9effd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    gap: 10px;
+    border-radius: 25px;
+}
+
+.box_left {
+    flex: 50%;
+    background-image: linear-gradient(0,#312ce9,#5d4ee8);
+    border-radius: 25px;
+}
+.box_right {
+    flex: 50%;
+}
+
+.box_box {
+    padding: 10%;
+}
+
+.header_l {
+    color: #a291ee ;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.body_l {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-image: linear-gradient(0,#5d4ee8,#4c21c8);
+    margin: auto;
+    position: relative;
+}
+
+.percent {
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+
+.load_of_percent {
+    position: absolute;
+    bottom: 20%;
+    left: 36%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+
+.footer_l >h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.decr {
+    text-align: center;
+    color: #a291ee;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 0;
+}
+
+
+.title_header {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.body_box_r {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.right {
+    color: #000;
+    font-weight: bold;
+}
+
+.color_t {
+    color: #c0b7be;
+}
+
+.body_box_r:nth-child(1) {
+    background-color: #fff6f5;
+    color: #e48784;
+}
+
+.body_box_r:nth-child(2) {
+    background-color: #fffbf2;
+    color: #fdd15b;
+}
+
+.body_box_r:nth-child(3) {
+    background-color: #f2fbfa;
+    color: #3ec19f;
+}
+
+.body_box_r:nth-child(4) {
+    background-color: #f3f3fd;
+    color: #646dc1;
+}
+
+.footer_r {
+    margin-top: 25%;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+    background-color: #303b59;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer_r:hover {
+    background-color: #312ce9;
+    cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+    html{
+        padding: 0;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .body_l {
+        height: 210px;
+        width: 210px;
+    }
+}
