@@ -1,0 +1,78 @@
+html {
+    padding: 20% 10%;
+    background-color: #a467e9;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    border-radius: 20px;
+    position: relative;
+}
+
+.container_l {
+    flex:1;
+    position: relative;
+    overflow: hidden;
+}
+
+.container_r {
+    flex: 1;
+}
+
+.container_box {
+    padding: 10% 15% 10% 0;
+}
+
+.desktop {
+    position: absolute;
+}
+
+.woman,
+.img_bg {
+    width: 100%;
+}
+
+.woman {
+    top: 20%;
+    left: -15%;
+}
+
+.img_bg {
+    top: 20%;
+    left: -15%;
+}
+
+.img_box {
+    z-index: 99;
+    width: 22%;
+    left: -11%;
+    top: calc(26%);
+}
+
+.box_l {
+    overflow: hidden;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more_info > img {
+    padding: 10px;
+    width: 18px;
+}
+
+.answer {
+    display: none;
+}
+
+.on {
+    display: block;
+}
+
+.a {
+    transform: rotate(180deg);
+}
