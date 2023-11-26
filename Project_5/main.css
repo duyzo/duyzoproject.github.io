@@ -1,0 +1,49 @@
+html {
+    padding: 20%;
+}
+
+.container {
+    display: flex;
+
+}
+
+.container_box {
+    padding: 5%;
+    color: #fff;
+}
+
+.container_box:nth-child(1) {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.container_box:nth-child(2) {
+    background-color: hsl(184, 100%, 22%)
+}
+
+.container_box:nth-child(3) {
+    background-color: hsl(179, 100%, 13%)
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.decr {
+    font-family: 'Lexend Deca';
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.more {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.more:hover {
+    cursor: pointer;
+}
