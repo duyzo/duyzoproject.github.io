@@ -1,0 +1,131 @@
+html {
+    padding: 20% 10%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+
+}
+
+.container_l {
+    flex:60%;
+    background-image: url(./images/bg-pattern-desktop.svg);
+}
+
+.container_r {
+    flex: 40%;
+}
+
+.container_r > img {
+    width: 100%;
+    height: 100%;
+}
+
+.box_l {
+    padding: 5% 15% 5% 20%;
+}
+
+.header{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.header> span {
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid hsl(0, 93%, 68%);
+    display: inline-block;
+}
+
+.header p {
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.title {
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.title > p:nth-child(1) {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.title > p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.decr {
+    margin: 40px 0;
+    color: hsl(0, 36%, 70%);
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.email_box {
+    position: relative;
+}
+
+.email_input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+    border:hsl(0, 36%, 70%) 1px solid ;
+}
+
+.submit {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: -23px;
+    width: 70px;
+    padding: 10px;
+    background-image: linear-gradient(0, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+.error {
+    color: #fff;
+    position: absolute;
+    top: 7px;
+    right: 75px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 3px;
+    display: none;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.on {
+    display: block;
+}
+
+.text {
+    color: red;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-top: 15px;
+}
