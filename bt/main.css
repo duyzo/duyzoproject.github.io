@@ -1,0 +1,89 @@
+html {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.container {
+    
+}
+
+.box_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 30%;
+}
+
+.box {
+    display: fixed;
+    background-color: #fff;
+    width: 33%;
+    padding: 10px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+h3 {
+    margin: 5px 0
+}
+
+.close_x {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    color: #fff;
+}
+
+.close {
+    padding: 5px;
+    background-color: gray
+
+}
+
+.add {
+    padding: 5px;
+    background-color: green;
+    width: 40px;
+}
+
+.radius-5 {
+    border-radius: 5px;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.on {
+    display: flex;
+}
+
+table, th, td {
+    border:1px solid black;
+    padding: 5px;
+  }
+
+table {
+    display: none;
+    
+}
+

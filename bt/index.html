@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">'
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Thêm sản phẩm</h1>
+        <label for="name_produce">Tên sản phẩm:</label>
+        <input type="text" id="name_produce" class="border-solid border-2 divide-zinc-300 w-64"> <br><br>
+        <label for="menu">Danh mục</label> <br><br>
+        <select name="Danhmuc" class="border-solid border-2 divide-zinc-300 w-64" id="menu">
+    
+        </select> <br><br>
+        <label for="brand">Thương hiệu:</label> <br><br>
+        <select name="" id="brand" class="border-solid border-2 divide-zinc-300 w-64">
+    
+        </select> <br><br>
+        <label for="vendor">Nhà cung cấp</label> <br><br>
+        <select name="" id="vendor" class="border-solid border-2 divide-zinc-300 w-64">
+    
+        </select> <br><br>
+        <h2>Hình ảnh sản phẩm</h2>
+        <input type="file" class="file_add" id="img_file" onchange="chooseFile(this)">
+        <img src="" alt="" id="img" style="width: 100px; height: 100px;">
+         <br><br>
+         <div class="add_address p-1 bg-blue-500 w-40 text-center pointer"> Thêm địa chỉ kho</div>
+         <br>
+         <label for="">Địa chỉ lấy hàng:</label> <br><br>
+         <select name="" id="address_pickup" class="border-solid border-2 divide-zinc-300 w-64">
+            
+         </select>
+         <br><br>
+         <label for="">Địa chỉ giao hàng:</label> <br><br>
+         <select name="" id="address_give" class="border-solid border-2 divide-zinc-300 w-64">
+            
+         </select>
+         <br><br>
+         <div class="add_produce p-1 bg-green-500 text-center w-40 pointer">Thêm sản phẩm</div> <br><br><br>
+         <div class="edit_bt p-1 bg-green-500 text-center w-40 pointer hidden">Cập nhật</div> <br><br><br>
+
+         <table class="table">
+            
+         </table >
+
+         <div class="box_container ">
+            <div class="box">
+                <div class="header">
+                    <h3>Thêm địa chỉ kho</h3>
+                    <span class="close_x pointer">&times</span>
+                </div>
+                    <select name="" id="address" class="border-solid border-2 divide-zinc-300 w-64">
+
+                    </select> <br><br>
+                    <input type="checkbox" class="pick">  <span>Địa chỉ lấy hàng</span> <br><br>
+                    <input type="checkbox" class="give"> <span>Địa chỉ trả hàng</span> 
+                <div class="footer">
+                    <span class="close radius-5 pointer">Close</span>
+                    <span class="add radius-5 pointer">Add</span>
+                </div>
+            </div>
+         </div>
+        </div>
+        <script type="module" src="./main.js"></script>
+        <script>
+            
+            function chooseFile(fileInput)  {
+    if (fileInput.files && fileInput.files[0]) {
+        let reader = new FileReader()
+
+        reader.onload = function (e) {
+            $('img').attr('src',e.target.result)
+        }
+        reader.readAsDataURL(fileInput.files[0])
+    }
+}
+        </script>
+</body>
+</html>
