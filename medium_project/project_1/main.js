@@ -44,8 +44,9 @@ function action() {
     d.setDate(day.value)
     let present = new Date()
     let time = (d.getTime() - present.getTime())/60/60/24/1000
-    let newyear = time >365 ? (time/365).toFixed(0): 0
-    let newmonth = time > 30 ? (time%365/30).toFixed(0) : 0
+    if (time < 0) time = -time
+    let newyear = time >365 ? Math.floor((time/365)): 0
+    let newmonth = time > 30 ? Math.floor((time%365/30)) : 0
     let newday = (time%365%30)
         $('.add_year').innerHTML = newyear
         $('.add_month').innerHTML = newmonth
