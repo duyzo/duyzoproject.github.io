@@ -1,0 +1,60 @@
+html {
+    padding: 20% 10%;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 94%);
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px 15px 30% 15px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+    font-weight: 700;
+}
+    
+    .header  p {
+    
+}
+        
+.header input {
+    width: 100px;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.box_date {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.pupple {
+    color: hsl(259, 100%, 65%);
+}
+
+.submit {
+    font-size: 60px;
+    color: hsl(259, 100%, 65%);
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.invalid {
+    color: hsl(0, 100%, 67%);
+    
+}
+
+.on {
+    border: 1px solid red;
+}
