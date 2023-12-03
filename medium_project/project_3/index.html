@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img class="me-5" src="./images/logo.svg" alt="">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Features
+            </a>
+            <ul class="dropdown-menu">
+              <li class="d-flex ms-3">
+                <div class="">
+                  <img src="./images/icon-todo.svg" alt="">
+                </div>
+                <a class="dropdown-item" href="#">To do list</a>
+              </li>
+              <li class="d-flex ms-3">
+                <div class="">
+                  <img src="./images/icon-calendar.svg" alt="">
+                </div>
+                <a class="dropdown-item" href="#">Calendar</a>
+              </li>
+              <li class="d-flex ms-3">
+                <div class="">
+                  <img src="./images/icon-reminders.svg" alt="">
+                </div>
+                <a class="dropdown-item" href="#">Reminders</a>
+              </li>
+              <li class="d-flex ms-3">
+                <div class="">
+                  <img src="./images/icon-planning.svg" alt="">
+                </div>
+                <a class="dropdown-item" href="#">Planing</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown ms-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">History</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+  
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <div class="d-flex" role="search">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+    </div>
+<div class="container">
+  <div class="body d-flex align-items-center">
+    <div class="body_left flex-grow-1 ">
+      <h1 class="fw-bold">Make remote work</h1>
+      <p class="fs-3 mt-4 mb-4">  
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <button type="button" class="btn btn-dark mt-4">Learn more</button>
+      <div class="footer d-flex gap-4 mt-5">
+        <div><img src="./images/client-databiz.svg" alt=""></div>
+        <div><img src="./images/client-audiophile.svg" alt=""></div>
+        <div><img src="./images/client-meet.svg" alt=""></div>
+        <div><img src="./images/client-maker.svg" alt=""></div>
+      </div>
+    </div>
+    <div class="body_right flex-grow-1">
+      <img class="w-100" src="./images/image-hero-desktop.png" alt="">
+    </div>
+  </div>
+</div>  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
