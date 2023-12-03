@@ -25,7 +25,7 @@ custom.onclick = () => {if ($('.on')) $('.on').classList.remove('on')}
 custom.onblur = function() {percent =(this.value);}
 people.onblur = function() {
     numberPeople =(this.value); 
-    if(!numberPeople) {
+    if(!numberPeople || numberPeople === 0) {
         $('.error').innerHTML = `Can't be zero`
         this.classList.add('invalid')
     } 
