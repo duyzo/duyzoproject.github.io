@@ -1,0 +1,80 @@
+html {
+    padding: 20% 10%;
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(0, 230, 247)
+}
+
+.container_right {
+    background-color: hsl(183, 100%, 15%) !important;
+    color: hsl(172, 67%, 45%) !important;
+    width: 100%;
+    padding: 20px;
+    height: 350px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.custom {
+    text-align: center;
+    padding: 7px;
+    width: 100%;
+    
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.btn {
+    width: 100%;
+    background-color: hsl(183, 100%, 15%) !important;
+}   
+
+.btn:hover {
+    background-color: hsl(172, 67%, 45%) !important;
+    color: hsl(183, 100%, 15%) !important;
+}
+
+.color_input{
+    color: hsl(183, 100%, 15%) !important;
+    font-weight: 700;
+}
+
+.on {
+    background-color:  hsl(172, 67%, 45%) !important;
+}
+
+.box_left >p:nth-child(1) {
+    color: #fff;
+    font-size: 25px;
+}
+
+.mn {
+    font-size: 50px;
+}
+
+.reset {
+    color: hsl(183, 100%, 15%) !important;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color:   hsl(172, 67%, 45%);
+    width: 100%;
+    border-radius: 10px;
+    border: 0px ;
+}
+
+.reset:hover {
+    background-color:  hsl(172, 69%, 62%);
+}
+
+.invalid {
+    border: 2px solid rgba(222, 159, 0, 0.595) ;
+
+}
+
+.error {
+    color:rgba(222, 159, 0, 0.595) ;
+    font-weight: bolder;
+}
