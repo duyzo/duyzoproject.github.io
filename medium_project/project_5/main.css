@@ -1,0 +1,49 @@
+html {
+    padding: 8% 5%;
+}
+
+.container {
+    height: 800px;
+}
+
+.left {
+    flex:30%;
+    background-image: url(./images/bg-main-desktop.png);
+}
+.right {
+    flex:70%;
+    margin-right: -100px;
+
+}
+
+.front_of_card {
+    background-image: url(./images/bg-card-front.png);
+    width: 448px;
+    height: 200px;
+    top: 20%;
+    left: 30%;
+    border-radius: 20px;
+
+}
+
+.back_of_card {
+    background-image: url(./images/bg-card-back.png) ;
+    width: 448px;
+    height: 200px;
+    bottom: 25%;
+    left: 40%;
+    border-radius: 20px;
+
+}
+
+.add_pass {
+    top: 107px;
+    right: 50px;
+}
+
+#form_1 {
+    margin-left: 200px;
+}
+.invalid {
+    border: 2px solid red;
+}
